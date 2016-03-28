@@ -42,10 +42,6 @@ down.
 
 Every peer will maintain a hash table of 12500 entries in this code.
 
-Note this can be adjusted by modifying the following macro:
-
-#define MAX_HASH_ENTRIES 12500
-
 Key to the distributed hashtables will be the file name and value will be the server’s that have the file (This will include the registering server’s id as well as replica’s id):
 
 1.1.4	Client thread 
